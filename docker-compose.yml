@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+    web:
+        build: .
+        restart: always
+        environment:
+          - VIRTUAL_HOST=ly.bce2.yongbuzhixi.com,ly.yongbuzhixi.com
+          - LETSENCRYPT_HOST=ly.bce2.yongbuzhixi.com,ly.yongbuzhixi.com
+          - LETSENCRYPT_EMAIL=dale.tel@139.com
