@@ -4,6 +4,7 @@ services:
     web:
         build: .
         restart: always
+        network_mode: "bridge"
         environment:
           - VIRTUAL_HOST=ly.bce2.yongbuzhixi.com,ly.yongbuzhixi.com
           - LETSENCRYPT_HOST=ly.bce2.yongbuzhixi.com,ly.yongbuzhixi.com
