@@ -6,6 +6,6 @@ services:
         restart: always
         network_mode: "bridge"
         environment:
-          - VIRTUAL_HOST=ly.bce2.yongbuzhixi.com,ly.yongbuzhixi.com
-          - LETSENCRYPT_HOST=ly.bce2.yongbuzhixi.com,ly.yongbuzhixi.com
+          - VIRTUAL_HOST=ly.yongbuzhixi.com
+          - LETSENCRYPT_HOST=ly.yongbuzhixi.com
           - LETSENCRYPT_EMAIL=dale.tel@139.com
